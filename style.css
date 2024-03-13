@@ -1,0 +1,14 @@
+.rounded-image-slider{
+    padding: 2%;
+}
+.rounded-image-slider .image-container{
+   /* Your styles here */
+   margin: 0 .7%;
+}
+.rounded-image-slider .image-container img {
+   border-radius: 50%; /* Makes the images rounded */
+   cursor: pointer; /* Change cursor to pointer on hover */
+   display: block; /* Ensure images are displayed as block elements */
+   width: 185px; /* Ensure images fill the container */
+   height: 185px;
+}
